@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Skau Madsen</title>
+    <style>
+        html, body {
+            color: rgb(238, 231, 231);
+            background-color: rgb(100, 11, 63);
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        html {
+            font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            font-size: 9rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        h2 {
+            font-size: 3rem;
+            font-weight: normal;
+            margin: 0.2rem 0;
+        }
+        p {
+            font-size: 1.2rem;
+            font-weight: normal;
+            margin: 0.2rem 0;
+        }
+        img.logo {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 10px solid rgb(238, 231, 231);
+        }
+        .column {
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        footer {
+            font-size: 0.75rem;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        @media only screen and (max-width: 500px) {
+            h1 { font-size: 3rem; }
+            h2 { font-size: 2rem; }
+            img.logo { width: 150px; height: 150px; border-width: 6px; }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="column">
+            <img src="coffee.jpg" class="logo" alt="Coffee beans" />
+        </div>
+        <div class="column">
+            <h1>Go'daw</h1>
+            <h2>Her er Skau Madsen...</h2>
+        </div>
+    </main>
+    <footer>
+        <div>
+            skaumadsen.dk &copy; 2023
+        </div>
+    </footer>
+</body>
+</html>
